@@ -1,14 +1,20 @@
 import React from "react";
-import Hero from "./components/Hero";
 import About from "./components/About";
+import Services from "./components/Services";
+import Careers from "./components/Careers";
+import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className=" flex flex-col justify-center items-center gap-y-3 w-full mx-auto bg-gradient-to-b from-neutral-800 to-neutral-950 min-h-screen">
+    <div className=" bg-neutral-950 text-neutral-200">
       <Navbar />
-      <Hero />
-      <About />
+      <Hero id="home" />
+      <About id="about" />
+      <Services id="services" />
+      <Careers id="careers" />
+      <Contacts id="contact" />
     </div>
   );
 }

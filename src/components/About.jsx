@@ -2,11 +2,14 @@ import React from "react";
 
 function About() {
   return (
-    <div className=" mt-12 flex flex-col justify-center items-center w-full px-16 py-60">
-      <h2 className=" text-4xl font-bold text-neutral-200 rounded-md border-b-4 px-2 border-orange-500">
+    <div
+      id="about"
+      className="  mt-12 flex flex-col justify-center items-center w-full px-6 md:px-16 py-60 mx-auto"
+    >
+      <h2 className=" text-4xl font-bold text-neutral-700 rounded-md border-b-4 px-2 border-orange-500">
         About Us
       </h2>
-      <span className=" text-neutral-300">
+      <span className=" text-neutral-500">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe earum
         quod sint, dolor molestiae tempora modi excepturi repudiandae. Dolor
         facere placeat eum magni, voluptatum eveniet obcaecati beatae enim culpa
